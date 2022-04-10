@@ -11,6 +11,6 @@ public class GreetingResource {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public Greeting hello() {
-        return new Greeting("hello jaxrs (Quarkus+JVM)");
+        return new Greeting("hello aws");
     }
 }
